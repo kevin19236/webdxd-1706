@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Steve's WebPage</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<img class="round-img profile-img" src=".\img\profile.jpg" alt="profile">
+			<ul>
+				 <li><a href="index.html">About</a></li>
+				 <li><a href="work.html">Work</a></li>
+				 <li><a href="contact.html">Contact</a></li>
+				 <li><a href="network.html">Network</a></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<h1>Hi,I'm Steve</h1>
+			<h2>a full stack designer</h2>
+		</div>
+	</div>
+</body>
+</html>

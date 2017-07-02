@@ -1,0 +1,163 @@
+body{
+	background : url(../img/background.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+.round-img{
+	border-radius: 50%;
+}
+
+.profile-img{
+	width: 100px;
+	float:left;
+}
+
+.container{
+	width:100%;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+
+.work-img{
+	width:350px;
+}
+
+.develop-img{
+	width:350px;	
+}
+
+
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 20px;
+}
+
+nav ul li a{
+	color: #d84f49;
+	font-size: 1.5rem;
+	transition:ease 0.5s color, font-size 0.5s;
+	
+}
+
+nav ul li a:hover{
+	color:white;
+	font-size:2rem;
+}
+
+.content{
+	text-align: center;
+	margin-top: :15%;
+}
+
+.center{
+	text-align: center;
+
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+h3{
+	font-size:2rem;
+}
+h4{
+	font-size:1.5rem;
+}
+
+.div1{
+	padding:50px;
+	width:40%;
+	float:left;
+}
+.div1 img{
+	width:100%;
+}
+
+.div2{
+	width:40%;
+	float:right;
+}
+
+.div3{
+    
+    width:40%;
+	
+	float:left;
+}
+.div4{
+	width: 50%;
+	float:right;
+	width:40%;
+}
+.div4 img{
+	width:100%;
+}
+.div0{
+	clear:both;
+}
+form{
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.clearfloat{
+	clear:both;
+}
+
+form input, form textarea, form button{
+    width: 100%;
+    height: 52px;
+    border-radius: 10px;
+    border: 2px solid #b2b2b2;
+}
+form textarea{
+    height: 200px;
+}
+form button{
+    margin-top: 30px;
+    color:white;
+    font-size: 18px;
+    background-color: #43b3ff;
+    border: 2px solid #3680b2;
+}
+
+#user-container {
+    padding: 20px;
+}
+
+.user {
+    background-color: rgba(255,255,255,.5);
+    border: 5px solid #e0e0e0;
+    display: inline-block;
+    padding: 15px;
+}
+
+.user p span {
+    background-color: #26ABFF;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.search-input, .search-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.search-btn {
+    background-color: #26ABFF;
+    color: white;
+}
